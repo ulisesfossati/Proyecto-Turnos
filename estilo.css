@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color:#9DFF00;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 4em;
+    height: 4em;
+    border-radius: 50px;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+nav{
+   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.prueba{
+    color: white;
+    background-color: black;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 3em;
+    font-size: 1.7rem;   
+    padding: 0.5em 1em; 
+    
+}
+
+/* TERMINA HEADER */
+
+/* EMPIEZA MAIN */
+
+body{
+    background-color: #222021;
+}
+
+
+.fechas{
+    padding-bottom: 10em;
+}
+.imagen{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.imagen img{
+    width: 35em;
+    height: 18em;
+}
+
+.turnos{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.calendario{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
+}
+
+.calendarioimg{
+    width: 23em;
+    height: 23em;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.burbu{
+    background-color: white;
+    color: black ;
+    padding: 0.6em;
+    margin-top: 1.3em;
+    border-radius: 17px;
+    border: 3px solid black;
+    margin-right: 0.4em;
+}
+
+
+.ubicacion{
+    color: white;
+   
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+    font-size: 1.6rem;
+}
+
+.mapa{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
