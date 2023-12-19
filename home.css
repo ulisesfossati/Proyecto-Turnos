@@ -38,6 +38,8 @@ nav{
     border-radius: 20px;
 }
 
+
+
 nav a{
     text-decoration: none;
     color: black;
@@ -48,22 +50,11 @@ nav a{
     
 }
 
-/* TERMINA HEADER */
-
-/* EMPIEZA MAIN */
-
-body{
-    background-color: #222021;
-}
-
-
-.fechas{
-    padding-bottom: 5em;
-}
 .imagen{
     
     display: flex;
     justify-content: center;
+    margin-bottom: 2em;
 }
 
 .imagen img{
@@ -71,53 +62,8 @@ body{
     height: 18em;
 }
 
-.turnos{
-    color: white;
-    display: flex;
-    justify-content: center;
-    font-size: 2rem;
-}
-
-.calendario{
-    display: flex;
-    justify-content: center;
-    margin-top: 1.5em;
-}
-
-.calendarioimg{
-    width: 23em;
-    height: 23em;
-}
-
-.flex{
-    display: flex;
-    justify-content: center;
-}
-.burbu{
-    background-color: white;
-    color: black ;
-    padding: 0.6em;
-    margin-top: 1.3em;
-    border-radius: 17px;
-    border: 3px solid black;
-    margin-right: 0.4em;
-}
-
-
-.ubicacion{
-    color: white;
-   
-    
-    display: flex;
-    justify-content: center;
-    margin-top: 5em;
-    font-size: 1.6rem;
-}
-
-.mapa{
-    display: flex;
-    justify-content: center;
-    margin-top: 2em;
+body{
+    background-color: #222021;
 }
 
 
@@ -126,17 +72,22 @@ h1{
     color: white;
     display: flex;
     justify-content: center;
+    margin-bottom: 1em;
+    font-size: 2rem;
+    
 }
 
-.formulario{
+p{
+    color: white;
+    margin-right: 5em;
+    font-size: 1.5rem;
+    margin-bottom: 1em;
+    font-weight: bolder ;
+}
+
+.flexing{
     display: flex;
-    justify-content: center;
-    
-    
+justify-content: center;
+padding-bottom: 8em;
 }
 
-
-input{
-    width: 30em;
-    height: 3em;
-}
